@@ -8,6 +8,16 @@ body {
     font-family: monospace
 }
 
+.button {
+    background-color: #284195;
+    color: #fff;
+    border-radius: 0.6rem;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    cursor: pointer
+}
+
 .card {
     background-color: #fff;
     border-radius: 0.5rem;
