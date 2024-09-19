@@ -4,7 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    font-family: 'Courier New', Courier, monospace;
+    background: url('./img/background.jpg');
+    font-family: monospace
 }
 
 .card {
@@ -29,4 +30,5 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }

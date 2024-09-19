@@ -1,7 +1,11 @@
 window.addEventListener('load', function() {
+    updateHtml();
+})
+
+function updateHtml() {
     let keySpan = document.getElementById("key");
     keySpan.innerText = generateEuromilhoesKey();
-})
+}
 
 function generateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
@@ -14,7 +18,7 @@ function generateEuromilhoesKey() {
         finalString.push(generateRandomNumber(1,50));
     }
 
-    finalString.push("-");
+    finalString.push("+");
     
     for (j = 0; j < 2; j++) {
         finalString.push(generateRandomNumber(1,12));
