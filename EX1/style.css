@@ -1,0 +1,32 @@
+body {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.card .card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
